@@ -256,7 +256,8 @@ module.exports = function (grunt) {
             '!**/_*{,/**}',
             // Explicitly add any files your site needs for distribution here.
             '_bower_components/jquery/dist/jquery.js',
-            '_bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/*'
+            '_bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/*',
+            'CNAME'
             //'favicon.ico',
             //'apple-touch*.png'
           ],
@@ -367,6 +368,7 @@ module.exports = function (grunt) {
     'jshint:all',
     'csslint:check'
   ]);
+
 
   grunt.registerTask('build', [
     'clean',
