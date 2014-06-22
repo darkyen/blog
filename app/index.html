@@ -1,13 +1,43 @@
 ---
-layout: home
-title: Abhishek Hingnikar home
+layout: default
+title: Abhishek Hingnikar
+nav_active: 'profile'
 ---
+        <section class="row profile-sec">
+            <div class="col-md-2">
+                <h3>Who Am I</h3>
+                <hr />
+            </div>
+            <div class="col-md-10">
+                <p> I am founder of Snapick an application which aims to change the way you see photos. I also give my services to <a href="http://midnode.com">MidNode</a> as a R &amp; D Developer. In past I spent amazing time working on two great apps (<a href="http://pixter.in">Pixter</a> &amp; <a href="http://colorbay.me">ColorBay</a>) as a Cloud Architect and in-house web developer at <a href="http://metarain.com">MetaRain</a>.</p>
+            </div>
+        </section>
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
+        <section class="row profile-sec">
+            <div class="col-md-2">
+                <h3>What I do</h3>
+                <hr />
+            </div>
+            <div class="col-md-10">
+                <p> I spend most of my time in front of a computer programming, gulping coffee, listening to music, socializing, my work varies in various fields but mostly : </p>
+                <ul>
+                    <li> I write code; Lots of it.</li>
+                    <li> I build scalable solutions and help people shape up their startups.</li>
+                    <li> I design.</li>
+                    <li> I Teach &amp; Learn.</li>
+                </ul>
+                <p>When not working (which is rare), I spend time listening to random music, reading, walking/riding long distances on the ever awesome and surprising Indian roads.</p>
+            </div>
+        </section>
+
+
+        <section class="row profile-sec">
+            <div class="col-md-2">
+                <h3>My Story</h3>
+                <hr />
+            </div>
+            <div class="col-md-10">
+                <p>I started programming very young at age of 13, thanks to the very awesome <a href="http://scratch.mit.edu">Scratch Community</a>. I then tried C/C++ but found more interest in the web-stack with intense ranting and help from the <a href="http://chat.stackoverflow.com/rooms/17/">StackOverflow JS Chat</a> I am now able to create what I wish with the stack. Recently I started exploring Machine Learning and building apps out of it.</p>
+            </div>
+        </section>
+    

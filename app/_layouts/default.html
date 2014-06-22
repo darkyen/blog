@@ -9,11 +9,11 @@
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <!-- build:css styles/vendor.css -->
+        <!-- build:css /styles/vendor.css -->
         <!-- bower:css -->
         <!-- endbower -->
         <!-- endbuild -->
-        <!-- build:css(.tmp) styles/main.css -->
+        <!-- build:css(.tmp) /styles/main.css -->
         <link rel="stylesheet" href="/styles/main.css">
         <link rel="stylesheet" href="/styles/syntax.css">
         <!-- endbuild -->
@@ -25,7 +25,90 @@
 
 
         <div class="container">
-            {{ content }}
+            <div class="about-me home">
+                <header class="header details">
+                    <div class="row">
+                        <div class="side-col col-md-3">
+                            <div class="image">
+                                <img class="img-responsive" src="http://graph.facebook.com/AbhishekHingnikar/picture?width=256" />
+                            </div>
+                            <hr />
+                            <nav class="nav">
+                                <ul class="list-unstyled">
+                                    <li class="active">
+                                        <a href="/"><i class="fa fa-book fa-fixed"></i> Profile </a>
+                                        {% if page.nav_active == 'profile' %}
+                                            <i class="current-tab-arrow fa fa-long-arrow-right pull-right"></i>
+                                        {% endif %}
+                                    </li>
+                                    <hr />
+                                    <li>
+                                        <a href="/blog"><i class="fa fa-calendar-o fa-fixed"></i> Posts</a>
+                                        {% if page.nav_active == 'blog' %}
+                                            <i class="current-tab-arrow fa fa-long-arrow-right pull-right"></i>
+                                        {% endif %}
+                                    </li>
+                                    <hr />
+                                    <li>
+                                        <a href="/projects"><i class="fa fa-trophy fa-fixed"></i> Projects </a>
+                                        {% if page.nav_active == 'projects' %}
+                                            <i class="current-tab-arrow fa fa-long-arrow-right pull-right"></i>
+                                        {% endif %}
+                                    </li>
+                                    <hr />
+                                    <li>
+                                        <a href="/employers"><i class="fa fa-briefcase fa-fixed"></i> Employers</a>
+                                        {% if page.nav_active == 'employers' %}
+                                            <i class="current-tab-arrow fa fa-long-arrow-right pull-right"></i>
+                                        {% endif %}
+                                    </li>
+                                    <hr />
+                                </ul>
+                            </nav>
+                            <div class="social">
+                                <ul class="list-unstyled list-inline social-links">
+                                    <li><a href="http://codepen.io/darkyen/" class="fa social-link fa-codepen"></a></li>
+                                    <li><a href="https://fb.me/AbhishekHingnikar" class="fa social-link fa-facebook"></a></li>
+                                    <li><a href="https://twitter.com/darkyen00/" class="fa social-link fa-twitter"></a></li>
+                                    <li><a href="http://stackoverflow.com/users/855760/abhishek-hingnikar" class="fa social-link fa-stack-overflow"></a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="text col-md-offset-3 col-md-9">
+                            <div class="details flex-container">
+                                <span class="inline"><h1 class="name">Abhishek Hingnikar</h1></span>
+                                <span class="inline">
+                                    <a class="btn btn-primary" href="http://careers.stackoverflow.com/darkyen/"><i class="fa fa-cloud"></i> CV</a>
+                                    <a class="btn btn-success" href="mailto:abhishek@goph.me"><i class="fa fa-thumbs-o-up"></i> Hire me!</a>
+                                </span>
+                            </div>
+                            <div class="info"> 
+                                <span> 
+                                    <i class="fa fa-globe"></i>
+                                    <a href="#">India</a>
+                                </span> 
+                                
+                                <span class="seperator"></span>
+                                
+                                <span> 
+                                    <b class="fa">{/}</b>
+                                    <a href="#">Python</a>,
+                                    <a href="#">Web Stack</a>,
+                                    <a href="#">Java</a>,
+                                    <a href="#">C++</a>
+                                </span>
+                        </div>
+                    </div>
+                </header>
+                <div class="content">
+                    <div class="row">
+                        <div class="col-md-offset-3 col-md-8">
+                        {{ content }}
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
 
