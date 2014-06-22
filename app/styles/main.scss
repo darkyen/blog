@@ -1,0 +1,221 @@
+$icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/";
+
+// bower:scss
+@import "../../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss";
+// endbower
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+hr{
+    margin: 0.5em 0;
+}
+/* Space out content a bit */
+h1,h2,h3{
+    margin: 0.4em 0 0.4em 0;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #121212;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+
+a{
+    color: #545454;
+}
+
+a:hover{
+    color: #000;
+    text-decoration: none;
+}
+.content{
+    a{
+        text-decoration: underline
+    }
+    h3{
+        margin: 0.1em 0;
+    }
+}
+.inline{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.social{
+    text-align: center;
+    .social-links > li{
+        padding: 0;
+    }
+    .social-link{
+        font-size: 18px;
+        color: #fff;
+        background: #000;
+        padding: 0.7em 0.6em;
+        width: 2.4em;
+        text-align: center;
+    }
+    .fa-facebook{
+        background: #3B5998;
+    }
+    .fa-twitter{
+        background: #4099ff;
+    }
+    .fa-stack-overflow{
+        background: #FF9900;
+    }
+    .fa-codepen{
+        background: #545454;
+    }
+}
+
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-between;
+
+  align-items: center;
+
+}
+
+
+.profile-sec{
+    margin: 1em 0;
+    h3{
+        font-size: 14px;
+        font-weight: 400;
+        text-align: right;
+    }
+}
+
+.header{
+    background: #ddd;
+    padding: 1em;
+    border-radius: 4px 4px 0 0 ;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+.fa-fixed{
+    width: 2em;
+    text-align: center;
+}
+.side-col{
+    position: absolute;
+    left: 5px;
+    > .image{
+        border-radius: 4px;
+        box-shadow:inset 0px 0px 6px rgba(0,0,0,0.6);
+        background: url(http://graph.facebook.com/AbhishekHingnikar/picture?width=256);  
+        background-size: contain;
+        margin-bottom: 15px;
+    }
+
+    img{
+        visibility: hidden;
+    }
+
+}
+.seperator{
+    display: inline-block;
+    width: 2em;
+}
+.container{
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 0;
+    border-radius: 4px;
+    > .about-me{
+        height: 100%;
+        position: relative;
+    }
+
+    .content{
+        margin: 15px 0;
+        height: -webkit-calc(100% - 130px);
+        height: -moz-calc(100% - 130px);
+        height: calc(100% - 130px);
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    html{
+        height: 100%;
+    }
+
+    body{
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-align: center;
+        -moz-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -moz-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        background: url(https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-ash2/t31.0-8/922546_656623874389460_1509588860_o.jpg) no-repeat;
+        background-position: center top;
+        background-size: cover;
+    }
+    .side-col{
+        .nav{
+            font-size: 14px;
+        }
+        hr{
+            margin: 4px 0;
+        }
+    }
+    .name{
+        font-size: 28px;
+    }
+    
+    .info{
+        font-size: 14px;
+    }
+    
+    .container {
+        max-width: 960px;
+        height: 640px;
+        box-shadow: 0px 2px 4px -2px rgba(0,0,0,0.8);
+    }
+}
+
+
+.current-tab-arrow{
+    visibility: collapse;
+}
+
+.active .current-tab-arrow{
+    visibility: visible;
+}
