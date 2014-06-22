@@ -21,13 +21,14 @@ Tech Stack :
 
 [MetaRain](http://metarain.com/)
 ========
-*Mar 2013 - Jan 2014*
-
+*Mar 2013 - Jan 2014* 
 
 MetaRain is an extremely promising product based startup located in Bangalore, the people are extremely friendly and creative. During my time there I worked on 2 fantastic apps [Pixter](http://pixter.in/) and [Colorbay](http://colorbay.me) ( give em a try ). MetaRain also built a bitcoin mining site [Coinwell](http://coinwell.in/).
 
 Tech Stack :
 
+* Linux
+* Apache
 * python 
 * postgres
 * HTML5/JS/CSS 3
@@ -55,7 +56,7 @@ EverybodiesRadio
 
 *Jan 2010 - till it ended*
 
-EBR was the starting of my professional life in many perspective. Though I was the co-founder and served as a DJ and Developer the learning experiences on how to work in a team and how to be polite, how to control people were taught here. Sadly I cannot keep up with the stress of hosting a radio station anymore (Trust me its TOO much more work then you think !). Working there was an amazing expereince.
+EBR was the starting of my professional life in many perspective. Though I was the co-founder and served as a DJ and Developer the learning experiences on how to work in a team and how to be polite, how to manage people were taught here. Sadly I cannot keep up with the stress of hosting a radio station anymore (Trust me its TOO much more work then you think !). Working there was an amazing expereince.
 
 Tech Stack :
 
