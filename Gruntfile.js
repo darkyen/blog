@@ -291,7 +291,7 @@ module.exports = function (grunt) {
     buildcontrol: {
       dist: {
         options: {
-          remote: 'darkyen.github.io',
+          remote: 'https://github.com/darkyen/darkyen.github.io',
           branch: 'master',
           commit: true,
           push: true
