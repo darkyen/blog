@@ -1,189 +1,127 @@
-<!doctype html>
-<html class="no-js">
-    <head>
-        <meta charset="utf-8">
-        <title>Abhishek Hingnikar</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
-        <link rel="shortcut icon" href="/favicon.ico">
-        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <!-- build:css styles/vendor.css -->
-        <!-- bower:css -->
-        <!-- endbower -->
-        <!-- endbuild -->
-        <!-- build:css(.tmp) styles/main.css -->
-        <link rel="stylesheet" href="styles/main.css">
-        <!-- endbuild -->
-    </head>
-    <body>
-        <!--[if lt IE 10]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+---
+layout: default
+---
+<div class="about-me home">
+    <header class="header details">
+        <div class="row">
+            <div class="side-col col-md-3">
+                <div class="image">
+                    <img class="img-responsive" src="http://graph.facebook.com/AbhishekHingnikar/picture?width=256" />
+                </div>
+                <hr />
+                <nav class="nav">
+                    <ul class="list-unstyled">
+                        <li class="active">
+                            <a href="#profile" data-toggle="tab"><i class="fa fa-book fa-fixed"></i> Profile </a>
+                            <i class="current-tab-arrow fa fa-long-arrow-right pull-right"></i>
+                        </li>
+                        <hr />
+                        <li>
+                            <a href="#blog" data-toggle="tab"><i class="fa fa-calendar-o fa-fixed"></i> Posts</a>
+                            <i class="current-tab-arrow fa fa-long-arrow-right pull-right"></i>
+                        </li>
+                        <hr />
+                        <li>
+                            <a href="#projects" data-toggle="tab"><i class="fa fa-trophy fa-fixed"></i> Projects </a>
+                            <i class="current-tab-arrow fa fa-long-arrow-right pull-right"></i>
+                        </li>
+                        <hr />
+                        <li>
+                            <a href="#employers" data-toggle="tab"><i class="fa fa-briefcase fa-fixed"></i> Employers</a>
+                            <i class="current-tab-arrow fa fa-long-arrow-right pull-right"></i>
+                        </li>
+                        <hr />
+                    </ul>
+                </nav>
+                <div class="social">
+                    <ul class="list-unstyled list-inline social-links">
+                        <li><a href="http://codepen.io/darkyen/" class="fa social-link fa-codepen"></a></li>
+                        <li><a href="https://fb.me/AbhishekHingnikar" class="fa social-link fa-facebook"></a></li>
+                        <li><a href="https://twitter.com/darkyen00/" class="fa social-link fa-twitter"></a></li>
+                        <li><a href="http://stackoverflow.com/users/855760/abhishek-hingnikar" class="fa social-link fa-stack-overflow"></a></li>
+                    </ul>
+                </div>
 
-
-        <div class="container">
-            <div class="about-me">
-                <header class="header details">
-                    <div class="row">
-                        <div class="side-col col-md-3">
-                            <div class="image">
-                                <img class="img-responsive" src="http://graph.facebook.com/AbhishekHingnikar/picture?width=256" />
-                            </div>
-                            <hr />
-                            <nav class="nav">
-                                <ul class="list-unstyled">
-                                    <li class="active">
-                                        <a href="#profile" data-toggle="tab"><i class="fa fa-book fa-fixed"></i> Profile </a>
-                                        <i class="current-tab-arrow fa fa-long-arrow-right pull-right"></i>
-                                    </li>
-                                    <hr />
-                                    <li>
-                                        <a href="#blog" data-toggle="tab"><i class="fa fa-calendar-o fa-fixed"></i> Posts</a>
-                                        <i class="current-tab-arrow fa fa-long-arrow-right pull-right"></i>
-                                    </li>
-                                    <hr />
-                                    <li>
-                                        <a href="#projects" data-toggle="tab"><i class="fa fa-trophy fa-fixed"></i> Projects </a>
-                                        <i class="current-tab-arrow fa fa-long-arrow-right pull-right"></i>
-                                    </li>
-                                    <hr />
-                                    <li>
-                                        <a href="#employers" data-toggle="tab"><i class="fa fa-briefcase fa-fixed"></i> Employers</a>
-                                        <i class="current-tab-arrow fa fa-long-arrow-right pull-right"></i>
-                                    </li>
-                                    <hr />
-                                </ul>
-                            </nav>
-                            <div class="social">
-                                <ul class="list-unstyled list-inline social-links">
-                                    <li><a href="http://codepen.io/darkyen/" class="fa social-link fa-codepen"></a></li>
-                                    <li><a href="https://fb.me/AbhishekHingnikar" class="fa social-link fa-facebook"></a></li>
-                                    <li><a href="https://twitter.com/darkyen00/" class="fa social-link fa-twitter"></a></li>
-                                    <li><a href="http://stackoverflow.com/users/855760/abhishek-hingnikar" class="fa social-link fa-stack-overflow"></a></li>
-                                </ul>
-                            </div>
-
-                        </div>
-                        <div class="text col-md-offset-3 col-md-9">
-                            <div class="details flex-container">
-                                <span class="inline"><h1 class="name">Abhishek Hingnikar</h1></span>
-                                <span class="inline">
-                                    <a class="btn btn-primary" href="http://careers.stackoverflow.com/darkyen/"><i class="fa fa-cloud"></i> CV</a>
-                                    <a class="btn btn-success" href="mailto:abhishek@goph.me"><i class="fa fa-thumbs-o-up"></i> Hire me!</a>
-                                </span>
-                            </div>
-                            <div class="info"> 
-                                <span> 
-                                    <i class="fa fa-globe"></i>
-                                    <a href="#">India</a>
-                                </span> 
-                                
-                                <span class="seperator"></span>
-                                
-                                <span> 
-                                    <b class="fa">{/}</b>
-                                    <a href="#">Python</a>,
-                                    <a href="#">Web Stack</a>,
-                                    <a href="#">Java</a>,
-                                    <a href="#">C++</a>
-                                </div>
-                        </div>
+            </div>
+            <div class="text col-md-offset-3 col-md-9">
+                <div class="details flex-container">
+                    <span class="inline"><h1 class="name">Abhishek Hingnikar</h1></span>
+                    <span class="inline">
+                        <a class="btn btn-primary" href="http://careers.stackoverflow.com/darkyen/"><i class="fa fa-cloud"></i> CV</a>
+                        <a class="btn btn-success" href="mailto:abhishek@goph.me"><i class="fa fa-thumbs-o-up"></i> Hire me!</a>
+                    </span>
+                </div>
+                <div class="info"> 
+                    <span> 
+                        <i class="fa fa-globe"></i>
+                        <a href="#">India</a>
+                    </span> 
+                    
+                    <span class="seperator"></span>
+                    
+                    <span> 
+                        <b class="fa">{/}</b>
+                        <a href="#">Python</a>,
+                        <a href="#">Web Stack</a>,
+                        <a href="#">Java</a>,
+                        <a href="#">C++</a>
                     </div>
-                </header>
-                <div class="content active">
-                    <div class="row">
-                        <div class="col-md-offset-3 col-md-9">
-                            <div class="tab-content">
-                                <div id="profile" class="tab-pane fade in active">
-                                    <section class="row profile-sec">
-                                        <div class="col-md-2">
-                                            <h3>Who Am I</h3>
-                                            <hr />
-                                        </div>
-                                        <div class="col-md-9">
-                                            <p> I am founder of Snapick an application which aims to change the way you see photos. I also give my services to <a href="http://midnode.com">MidNode</a> as a R &amp; D Developer. In past I spent amazing time working on two great apps (<a href="http://pixter.in">Pixter</a> &amp; <a href="http://colorbay.me">ColorBay</a>) as a Cloud Architect and in-house web developer at <a href="http://metarain.com">MetaRain</a>.</p>
-                                        </div>
-                                    </section>
-
-                                    <section class="row profile-sec">
-                                        <div class="col-md-2">
-                                            <h3>What I do</h3>
-                                            <hr />
-                                        </div>
-                                        <div class="col-md-9">
-                                            <p> I spend most of my time in front of a computer programming, gulping coffee, listening to music, socializing, my work varies in various fields but mostly : </p>
-                                            <ul>
-                                                <li> I write code; Lots of it.</li>
-                                                <li> I build scalable solutions and help people shape up their startups.</li>
-                                                <li> I design.</li>
-                                                <li> I Teach &amp; Learn.</li>
-                                            </ul>
-                                            <p>When not working (which is rare), I spend time listening to random music, reading, walking/riding long distances on the ever awesome and surprising Indian roads.</p>
-                                        </div>
-                                    </section>
-
-
-                                    <section class="row profile-sec">
-                                        <div class="col-md-2">
-                                            <h3>My Story</h3>
-                                            <hr />
-                                        </div>
-                                        <div class="col-md-9">
-                                            <p>I started programming very young at age of 13, thanks to the very awesome <a href="http://scratch.mit.edu">Scratch Community</a>. I then tried C/C++ but found more interest in the web-stack with intense ranting and help from the <a href="http://chat.stackoverflow.com/rooms/17/">StackOverflow JS Chat</a> I am now able to create what I wish with the stack. Recently I started exploring Machine Learning and building apps out of it.</p>
-                                        </div>
-                                    </section>
-                                </div>
-                                <div id="blog" class="tab-pane fade">
-                                    {{ content }}
-                                </div>
-                                <div id="projects" class="tab-pane fade">
-                                    <h2>Stuff I made</h2>
-                                </div>
-                                <div id="employers" class="tab-pane fade">
-                                </div>
+            </div>
+        </div>
+    </header>
+    <div class="content active">
+        <div class="row">
+            <div class="col-md-offset-3 col-md-9">
+                <div class="tab-content">
+                    <div id="profile" class="tab-pane fade in active">
+                        <section class="row profile-sec">
+                            <div class="col-md-2">
+                                <h3>Who Am I</h3>
+                                <hr />
                             </div>
-                        </div>
+                            <div class="col-md-9">
+                                <p> I am founder of Snapick an application which aims to change the way you see photos. I also give my services to <a href="http://midnode.com">MidNode</a> as a R &amp; D Developer. In past I spent amazing time working on two great apps (<a href="http://pixter.in">Pixter</a> &amp; <a href="http://colorbay.me">ColorBay</a>) as a Cloud Architect and in-house web developer at <a href="http://metarain.com">MetaRain</a>.</p>
+                            </div>
+                        </section>
+
+                        <section class="row profile-sec">
+                            <div class="col-md-2">
+                                <h3>What I do</h3>
+                                <hr />
+                            </div>
+                            <div class="col-md-9">
+                                <p> I spend most of my time in front of a computer programming, gulping coffee, listening to music, socializing, my work varies in various fields but mostly : </p>
+                                <ul>
+                                    <li> I write code; Lots of it.</li>
+                                    <li> I build scalable solutions and help people shape up their startups.</li>
+                                    <li> I design.</li>
+                                    <li> I Teach &amp; Learn.</li>
+                                </ul>
+                                <p>When not working (which is rare), I spend time listening to random music, reading, walking/riding long distances on the ever awesome and surprising Indian roads.</p>
+                            </div>
+                        </section>
+
+
+                        <section class="row profile-sec">
+                            <div class="col-md-2">
+                                <h3>My Story</h3>
+                                <hr />
+                            </div>
+                            <div class="col-md-9">
+                                <p>I started programming very young at age of 13, thanks to the very awesome <a href="http://scratch.mit.edu">Scratch Community</a>. I then tried C/C++ but found more interest in the web-stack with intense ranting and help from the <a href="http://chat.stackoverflow.com/rooms/17/">StackOverflow JS Chat</a> I am now able to create what I wish with the stack. Recently I started exploring Machine Learning and building apps out of it.</p>
+                            </div>
+                        </section>
+                    </div>
+                    <div id="blog" class="tab-pane fade">
+                        {{ content }}
+                    </div>
+                    <div id="projects" class="tab-pane fade">
+                        <h2>Stuff I made</h2>
+                    </div>
+                    <div id="employers" class="tab-pane fade">
                     </div>
                 </div>
             </div>
         </div>
-
-
-        <!-- build:js scripts/vendor.js -->
-        <!-- bower:js -->
-        <script src="_bower_components/jquery/dist/jquery.js"></script>
-        <!-- endbower -->
-        <!-- endbuild -->
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
-
-        <!-- build:js scripts/plugins.js -->
-        <script src="_bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/affix.js"></script>
-        <script src="_bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/alert.js"></script>
-        <script src="_bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/dropdown.js"></script>
-        <script src="_bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/tooltip.js"></script>
-        <script src="_bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/modal.js"></script>
-        <script src="_bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/transition.js"></script>
-        <script src="_bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/button.js"></script>
-        <script src="_bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/popover.js"></script>
-        <script src="_bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/carousel.js"></script>
-        <script src="_bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/scrollspy.js"></script>
-        <script src="_bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/collapse.js"></script>
-        <script src="_bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/tab.js"></script>
-        <!-- endbuild -->
-
-        <!-- build:js({app,.tmp}) scripts/main.js -->
-        <script src="scripts/main.js"></script>
-        <!-- endbuild -->
-</body>
-</html>
+    </div>
+</div>
